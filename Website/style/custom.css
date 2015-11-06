@@ -1,0 +1,61 @@
+body { padding-top: 55px; }
+
+.panel-default label {
+	font-size: smaller;
+}
+
+.panel {
+	margin-bottom:10px;
+}
+
+.panel-heading {
+    padding: 5px 15px !important;
+}
+
+.sidebar-panel .col-sm-4 {
+	padding-left:2px;
+	padding-right:10px;
+}
+
+.sidebar-panel .col-sm-8 {
+	padding-left:2px;
+	padding-right:10px;
+}
+
+.sidebar-panel button[type="submit"], button[type="button"] {
+	margin-top: -7px;
+}
+
+#logo {
+	width: 110px;
+	margin-top: -5px;
+}
+
+#grid {
+	height:85%;
+	width:100%;
+	background-color:#269;
+	background-image: linear-gradient(white 1px, transparent 1px),
+	linear-gradient(90deg, white 1px, transparent 1px),
+	linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
+	linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
+	background-size:50px 50px, 50px 50px, 10px 10px, 10px 10px;
+	background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px
+}
+
+#editor { 
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+#code {
+	height:85%;
+	width:100%;
+}
+
+.navbar li {
+	cursor:pointer;
+}
